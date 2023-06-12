@@ -1,0 +1,19 @@
+{
+  "users":
+  [
+    {
+      "username": "testuser1",
+      "password": "HOHFDKJHIHkjdfsbngkjf4%",
+      "userlevel": "1",
+      "ftp_directory": "",
+      "service_types": "ssh ftp"
+    },
+    {
+      "username": "testpython2",
+      "password": "0096612HUr%&",
+      "userlevel": "2",
+      "ftp_directory": "",
+      "service_types": "ssh ftp"
+    }
+  ]
+}

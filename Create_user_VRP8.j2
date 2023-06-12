@@ -1,0 +1,11 @@
+aaa
+{% for user in config.users -%}
+local-user {{ user.username }} password irreversible-cipher {{ user.password }}
+local-user {{ user.username }} level {{ user.userlevel }}
+{% if user.ftp_directory is defined and user.ftp_directory != "" -%}
+local-user {{ user.username }} ftp-directory {{ user.ftp_directory }}
+{% endif -%}
+local-user {{ user.username }} service-type {{ user.service_types }}
+{% endfor -%}
+quit
+commit
