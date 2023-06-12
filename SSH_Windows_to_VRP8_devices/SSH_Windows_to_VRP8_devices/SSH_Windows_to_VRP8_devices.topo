@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="867D2356-7C16-4b90-9EFD-9FE1E5CA5179" name="Cloud1" poe="0" model="Cloud" settings="" system_mac="" com_port="0" bootmode="0" cx="436.500000" cy="99.500000" edit_left="479" edit_top="184">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="0" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="Serial" count="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="1" remoteDisplayNo="2" adapterUid="\Device\NPF_{B1C847F8-6B5E-4CCF-8AFB-AC4DA40CD89D}" isOpen="1" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="2" remoteDisplayNo="1" adapterUid="" isOpen="0" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+            </slot>
+        </dev>
+        <dev id="5A14F15C-9815-4730-A619-35DD22A824E9" name="LSW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-50-34-36" com_port="2006" bootmode="0" cx="450.000000" cy="282.000000" edit_left="477" edit_top="336">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="57ACA949-641A-4f68-B5A0-EA461B4FF913" name="NE1" poe="0" model="NE40E" settings="" system_mac="70-7B-E8-07-5B-C8" com_port="2000" bootmode="0" cx="174.500000" cy="178.000000" edit_left="197" edit_top="242">
+            <slot id="1">
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="9" />
+            </slot>
+        </dev>
+        <dev id="1FE0B28E-F28E-4eed-BC89-86AC841C7ED3" name="NE3" poe="0" model="NE40E" settings="" system_mac="70-7B-E8-96-32-F6" com_port="2002" bootmode="0" cx="782.500000" cy="340.000000" edit_left="805" edit_top="404">
+            <slot id="1">
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="9" />
+            </slot>
+        </dev>
+        <dev id="BD622375-C5DD-4969-85E2-8AC9DE38EF19" name="NE2" poe="0" model="NE40E" settings="" system_mac="70-7B-E8-02-46-80" com_port="2001" bootmode="0" cx="171.500000" cy="353.000000" edit_left="194" edit_top="417">
+            <slot id="1">
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="9" />
+            </slot>
+        </dev>
+        <dev id="3D765587-6EB0-4b4a-972B-4EF7F3923409" name="NE4" poe="0" model="NE40E" settings="" system_mac="70-7B-E8-57-74-1F" com_port="2003" bootmode="0" cx="783.500000" cy="181.000000" edit_left="806" edit_top="245">
+            <slot id="1">
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="9" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="867D2356-7C16-4b90-9EFD-9FE1E5CA5179" destDeviceID="5A14F15C-9815-4730-A619-35DD22A824E9">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="478.228821" srcBoundRect_Y="206.392349" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="23" tarBoundRectIsMoved="0" tarBoundRect_X="477.517120" tarBoundRect_Y="265.819336" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="57ACA949-641A-4f68-B5A0-EA461B4FF913" destDeviceID="5A14F15C-9815-4730-A619-35DD22A824E9">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="238.325897" srcBoundRect_Y="224.611649" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="436.286194" tarBoundRect_Y="294.604767" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="BD622375-C5DD-4969-85E2-8AC9DE38EF19" destDeviceID="5A14F15C-9815-4730-A619-35DD22A824E9">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="236.333023" srcBoundRect_Y="373.631409" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="435.293976" tarBoundRect_Y="320.200195" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="1FE0B28E-F28E-4eed-BC89-86AC841C7ED3" destDeviceID="5A14F15C-9815-4730-A619-35DD22A824E9">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="761.953857" srcBoundRect_Y="363.731995" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="0" tarBoundRect_X="519.408569" tarBoundRect_Y="317.145538" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="3D765587-6EB0-4b4a-972B-4EF7F3923409" destDeviceID="5A14F15C-9815-4730-A619-35DD22A824E9">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="763.921753" srcBoundRect_Y="225.278137" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="3" tarBoundRectIsMoved="0" tarBoundRect_X="518.455017" tarBoundRect_Y="296.903717" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
